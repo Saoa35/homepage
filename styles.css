@@ -174,7 +174,7 @@ h3 {
   border-top: var(--main-text-color) 2px solid;
   border-bottom: var(--main-text-color) 2px solid;
   border-radius: 20px;
-  padding: 2% 5% 0 5%;
+  padding: 1% 5% 0 5%;
 }
 
 .heading {
