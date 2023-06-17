@@ -44,7 +44,7 @@ main {
   align-items: center;
   width: 100%;
   height: 350px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .avatar {
@@ -75,7 +75,7 @@ main {
   letter-spacing: 1px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: "Lato";
+  font-family: Lato;
   text-align: center;
   text-transform: uppercase;
   margin: 0;
