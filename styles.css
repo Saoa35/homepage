@@ -282,3 +282,153 @@ h3 {
   color: rgb(120, 121, 120);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+  .right-content-block {
+    padding: 1% 3% 0 3%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .name-profession p:first-child {
+    font-size: x-large;
+  }
+
+  .qualities {
+    display: block;
+  }
+
+  .education-description {
+    row-gap: 5%;
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .name-profession p:first-child {
+    font-size: large;
+  }
+
+  .profession {
+    font-size: medium;
+  }
+
+  .contacts p {
+    font-size: small;
+  }
+
+  .skills-list ul {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .name-profession p:first-child {
+    font-size: small;
+  }
+
+  .profession {
+    font-size: 15px;
+  }
+
+  .contacts p {
+    font-size: 10px;
+  }
+
+  .skills-list ul {
+    padding: 0;
+  }
+
+  .title {
+    font-size: small;
+  }
+
+  .description {
+    font-size: small;
+  }
+
+  h3 {
+    font-size: small;
+  }
+
+  .deskript {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .name-profession p:first-child {
+    font-size: small;
+  }
+
+  .profession {
+    font-size: 15px;
+  }
+
+  .contacts p {
+    font-size: 10px;
+  }
+
+  .skills-list ul {
+    padding: 0;
+  }
+
+  .title {
+    font-size: small;
+  }
+
+  .description {
+    font-size: small;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .heading {
+    font-size: 15px;
+  }
+
+  .deskript {
+    font-size: small;
+  }
+
+  .skills-element span {
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .hobby-img img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .name-profession p:first-child {
+    font-size: 10px;
+  }
+
+  .profession {
+    font-size: 10px;
+  }
+
+  .contacts p {
+    font-size: 7px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+
+  .heading {
+    font-size: 10px;
+  }
+
+  .hobby-img img {
+    width: 25px;
+    height: 25px;
+  }
+}
