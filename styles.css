@@ -4,12 +4,20 @@
 
 * {
   box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
 }
 
 .cv-container {
   max-width: 1240px;
   max-height: 1754px;
   margin: 0 auto;
+
+  --primary-color: #1f85eb;
+  --secondary-color: #1fcceb;
+  --main-text-color: #5e5a5a;
+  --secondary-text-color: #404040;
+  --main-background-color: #ededed;
 }
 
 main {
@@ -22,25 +30,23 @@ main {
 
 /* LEFT SIDE */
 
-.div-left {
+.left-content-block {
   display: flex;
   flex-direction: column;
   width: 34%;
-  background-color: #ededed;
-  border: #1f85eb 2px solid;
+  background-color: var(--main-background-color);
+  border: 2px solid var(--primary-color);
   border-radius: 20px;
 }
 
 .wrapper-photo {
+  background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 350px;
   border-radius: 20px 20px 0px 0px;
-  border: 100px solid transparent;
-  border-left: 100px solid #1f85eb;
-  border-top: 100px solid #1f85eb;
 }
 
 .photo-div {
@@ -62,7 +68,7 @@ main {
 .name-profession p:first-child {
   font-size: 300%;
   letter-spacing: 2px;
-  color: #1f85eb;
+  color: var(--primary-color);
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   text-transform: uppercase;
@@ -73,7 +79,7 @@ main {
 .profession {
   font-size: 25px;
   letter-spacing: 1px;
-  color: #1fcceb;
+  color: var(--secondary-color);
   font-weight: 600;
   font-family: "Lato";
   text-align: center;
@@ -100,7 +106,7 @@ main {
 .contacts p {
   text-align: center;
   font-size: 16px;
-  color: #5e5a5a;
+  color: var(--main-text-color);
   font-weight: 700;
   font-family: "Open Sans";
 }
@@ -118,13 +124,13 @@ main {
   position: absolute;
   width: 40px;
   height: 5px;
-  background-color: #1fcceb;
+  background-color: var(--secondary-color);
 }
 
 h3 {
   font-size: 20px;
   letter-spacing: 1px;
-  color: #5e5a5a;
+  color: var(--main-text-color);
   font-weight: 700;
   font-family: "Raleway";
   text-align: center;
@@ -132,7 +138,6 @@ h3 {
 }
 
 .skills-list ul {
-  /* display: flex; */
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 15px;
@@ -140,19 +145,15 @@ h3 {
 
 .skills-element {
   display: flex;
-  /* transform:rotate(45deg); */
   justify-content: center;
   align-items: center;
   list-style-type: none;
   background-color: rgb(192, 191, 191);
-  /* width: 95px;
-  height: 95px; */
   margin: 20px 20px;
   border-radius: 5px;
 }
 
 .skills-element span {
-  /* transform: rotate(-45deg); */
   color: rgb(60, 100, 112);
   font-weight: bold;
   font-size: large;
@@ -161,12 +162,12 @@ h3 {
 
 /* RIGHT SIDE */
 
-.div-right {
+.right-content-block {
   width: 66%;
-  background-color: #ededed;
-  border-right: #5e5a5a 2px solid;
-  border-top: #5e5a5a 2px solid;
-  border-bottom: #5e5a5a 2px solid;
+  background-color: var(--main-background-color);
+  border-right: var(--main-text-color) 2px solid;
+  border-top: var(--main-text-color) 2px solid;
+  border-bottom: var(--main-text-color) 2px solid;
   border-radius: 20px;
   padding: 35px 35px 0 35px;
 }
@@ -174,7 +175,7 @@ h3 {
 .heading {
   font-size: 20px;
   letter-spacing: 1px;
-  color: #5e5a5a;
+  color: var(--main-text-color);
   font-weight: 700;
   font-family: "Raleway";
   text-align: start;
@@ -201,14 +202,14 @@ h3 {
 
 .title {
   font-size: 18px;
-  color: #404040;
+  color: var(--secondary-text-color);
   font-weight: 400;
   font-family: "Raleway";
 }
 
 .description {
   font-size: 15px;
-  color: #404040;
+  color: var(--secondary-text-color);
   font-family: Tahoma, sans-serif;
   border-radius: 5px;
 }
