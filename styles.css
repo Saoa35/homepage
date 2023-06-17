@@ -148,11 +148,21 @@ h3 {
   border-radius: 5px;
 }
 
+.skills-element:hover {
+  background-color: var(--secondary-color);
+  cursor: context-menu;
+  scale: 1.1;
+}
+
 .skills-element span {
   color: rgb(60, 100, 112);
   font-weight: bold;
   font-size: large;
   text-align: center;
+}
+
+.skills-element:hover span {
+  color: var(--main-background-color);
 }
 
 /* RIGHT SIDE */
@@ -188,10 +198,27 @@ h3 {
 }
 
 .description {
-  font-size: 15px;
+  font-size: medium;
+  text-align: justify;
+  line-height: 20px;
   color: var(--secondary-text-color);
   font-family: Tahoma, sans-serif;
   margin-top: 4%;
+}
+
+.title {
+  font-size: 18px;
+  color: #404040;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+.portfolio {
+  color: var(--primary-color);
+}
+
+.portfolio:hover {
+  color: var(--secondary-color);
 }
 
 .education {
@@ -201,10 +228,9 @@ h3 {
 .education-description {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: 30px;
-  row-gap: 5px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  column-gap: 22%;
+  row-gap: 10%;
+  margin: 5% 0 10% 0;
 }
 
 .lanuage-container {
