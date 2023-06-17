@@ -4,8 +4,6 @@
 
 * {
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
 }
 
 .cv-container {
@@ -39,7 +37,7 @@ main {
   border-radius: 20px;
 }
 
-.wrapper-photo {
+.avatar-wrapper {
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -49,15 +47,8 @@ main {
   border-radius: 20px 20px 0px 0px;
 }
 
-.photo-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.photo-div img {
-  width: 300px;
-  height: 300px;
+.avatar {
+  max-width: 80%;
 }
 
 .name-profession {
