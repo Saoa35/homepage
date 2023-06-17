@@ -150,6 +150,7 @@ h3 {
 
 .skills-element:hover {
   background-color: var(--secondary-color);
+  cursor: context-menu;
   scale: 1.1;
 }
 
@@ -205,7 +206,15 @@ h3 {
   margin-top: 4%;
 }
 
-.education {
+.portfolio {
+  color: var(--primary-color);
+}
+
+.portfolio:hover {
+  color: var(--secondary-color);
+}
+
+/* .education {
   display: block;
 }
 
@@ -266,4 +275,4 @@ h3 {
 .deskript {
   color: rgb(120, 121, 120);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
