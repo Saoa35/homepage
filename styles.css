@@ -7,8 +7,8 @@
 }
 
 .cv-container {
-  max-width: 1240px;
-  max-height: 1754px;
+  max-width: 1100px;
+  max-height: 1500px;
   margin: 0 auto;
 
   --primary-color: #1f85eb;
@@ -53,35 +53,42 @@ main {
 
 .name-profession {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 .name-profession p:first-child {
-  font-size: 300%;
+  font-size: xx-large;
+  font-weight: 500;
   letter-spacing: 2px;
+  max-width: 80%;
   color: var(--primary-color);
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 10px;
+  margin: 6% 0;
 }
 
 .profession {
-  font-size: 25px;
+  font-size: large;
   letter-spacing: 1px;
   color: var(--secondary-color);
   font-weight: 600;
   font-family: "Lato";
   text-align: center;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .contacts {
   position: relative;
-  margin-top: 10px;
+  margin-top: 6%;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
 }
 
 .line-left {
@@ -96,19 +103,16 @@ main {
 
 .contacts p {
   text-align: center;
-  font-size: 16px;
+  font-size: medium;
   color: var(--main-text-color);
   font-weight: 700;
   font-family: "Open Sans";
 }
 
-.contacts p span {
-  display: block;
+.contacts p span,
+a {
+  text-decoration: none;
   color: #7c7777;
-}
-
-.margin-top {
-  margin-top: 5px;
 }
 
 .blue-block {
