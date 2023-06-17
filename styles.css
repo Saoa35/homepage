@@ -207,9 +207,8 @@ h3 {
 }
 
 .title {
-  font-size: 18px;
-  color: #404040;
-  font-weight: 400;
+  font-size: medium;
+  color: #696868;
   font-family: "Raleway";
 }
 
@@ -230,7 +229,7 @@ h3 {
   grid-template-columns: 1fr 2fr;
   column-gap: 22%;
   row-gap: 10%;
-  margin: 5% 0 10% 0;
+  margin: 5% 0 12% 0;
 }
 
 .lanuage-container {
@@ -260,6 +259,7 @@ h3 {
 .qualities {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .wrapper-hobby {
